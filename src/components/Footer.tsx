@@ -30,7 +30,7 @@ const Footer: React.FC = () => {
             <h4>Contact Us</h4>
             <ul className="mt-md">
               <li className="flex-item"><MapPin size={16} /> <span>서울시 종로구 인사동길 12, 3층</span></li>
-              <li className="flex-item"><Phone size={16} /> <span>02-123-4567</span></li>
+              <li className="flex-item"><Phone size={16} /> <span>010-1234-1234</span></li>
               <li className="flex-item"><Mail size={16} /> <span>contact@solbit.com</span></li>
             </ul>
           </div>

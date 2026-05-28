@@ -124,7 +124,7 @@ const App: React.FC = () => {
                   <Phone size={24} className="icon" />
                   <div>
                     <h5>연락처</h5>
-                    <p>02-123-4567 / 010-9876-5432</p>
+                    <p>010-1234-1234</p>
                   </div>
                 </div>
               </div>
