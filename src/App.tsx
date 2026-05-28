@@ -3,9 +3,10 @@ import Header from './components/Header';
 import Footer from './components/Footer';
 import SectionHeading from './components/SectionHeading';
 import { ArrowRight, Star, ShoppingCart, MessageSquare, Phone, MapPin } from 'lucide-react';
+import heroImg from './assets/hero.png';
 
 // Using the generated images (assuming paths or embedding logic)
-const HERO_IMG = "https://images.unsplash.com/photo-1578301978693-85fa9c0320b9?auto=format&fit=crop&q=80&w=1600"; // Fallback if local not used
+const HERO_IMG = heroImg;
 const PRODUCT_IMG = "https://images.unsplash.com/photo-1514228742587-6b1558fbed39?auto=format&fit=crop&q=80&w=800";
 const EXHIBITION_IMG = "https://images.unsplash.com/photo-1536924940846-227afb31e2a5?auto=format&fit=crop&q=80&w=1200";
 
@@ -35,7 +36,7 @@ const App: React.FC = () => {
               <img src="https://images.unsplash.com/photo-1471666875520-c75081f42081?auto=format&fit=crop&q=80&w=800" alt="Artist at work" className="rounded shadow" />
             </div>
             <div className="artist-info">
-              <SectionHeading title="작가 소개" subtitle="솔빛(Solbit) - 서예가 김선우" align="left" />
+              <SectionHeading title="작가 소개" subtitle="솔빛 작가 (Solbit)" align="left" />
               <p>20년 넘게 묵향과 함께하며 전통 서예의 현대적 해석을 연구해왔습니다. '솔빛'은 소나무 사이로 비치는 햇살처럼, 전통이 우리 삶의 어두운 구석을 따뜻하게 밝혀주길 바라는 마음을 담고 있습니다.</p>
               <ul className="artist-history mt-lg">
                 <li>• 대한민국 미술대전 서예부문 초대작가</li>
